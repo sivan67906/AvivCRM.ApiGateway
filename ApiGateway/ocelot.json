@@ -1,0 +1,2613 @@
+{
+  "Routes": [
+    // LeadSource API
+    {
+      "DownstreamPathTemplate": "/api/LeadSource/all-leadsource",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/LeadSource/all-leadsource",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/LeadSource/byid-leadsource/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/LeadSource/byid-leadsource/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/LeadSource/create-leadsource",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/LeadSource/create-leadsource",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/LeadSource/update-leadsource",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/LeadSource/update-leadsource",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/LeadSource/delete-leadsource?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/LeadSource/delete-leadsource?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // Application API
+    {
+      "DownstreamPathTemplate": "/api/Application/all-application",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Application/all-application",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Application/byid-application/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Application/byid-application/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Application/create-application",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Application/create-application",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Application/update-application",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Application/update-application",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Application/delete-application?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Application/delete-application?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // CustomQuestionType API
+    {
+      "DownstreamPathTemplate": "/api/CustomQuestionType/all-customquestiontype",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/CustomQuestionType/all-customquestiontype",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/CustomQuestionType/byid-customquestiontype/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/CustomQuestionType/byid-customquestiontype/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/CustomQuestionType/create-customquestiontype",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/CustomQuestionType/create-customquestiontype",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/CustomQuestionType/update-customquestiontype",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/CustomQuestionType/update-customquestiontype",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/CustomQuestionType/delete-customquestiontype?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/CustomQuestionType/delete-customquestiontype?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // Employee API
+    {
+      "DownstreamPathTemplate": "/api/Employee/all-employee",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Employee/all-employee",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Employee/byid-employee/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Employee/byid-employee/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Employee/create-employee",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Employee/create-employee",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Employee/update-employee",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Employee/update-employee",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Employee/delete-employee?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Employee/delete-employee?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    // FinancePrefixSetting API
+    {
+      "DownstreamPathTemplate": "/api/FinancePrefixSetting/all-financeprefixsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/FinancePrefixSetting/all-financeprefixsetting",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/FinancePrefixSetting/byid-financeprefixsetting/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/FinancePrefixSetting/byid-financeprefixsetting/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/FinancePrefixSetting/create-financeprefixsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/FinancePrefixSetting/create-financeprefixsetting",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/FinancePrefixSetting/update-financeprefixsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/FinancePrefixSetting/update-financeprefixsetting",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/FinancePrefixSetting/delete-financeprefixsetting?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/FinancePrefixSetting/delete-financeprefixsetting?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // FinanceUnitSetting API
+    {
+      "DownstreamPathTemplate": "/api/FinanceUnitSetting/all-financeunitsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/FinanceUnitSetting/all-financeunitsetting",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/FinanceUnitSetting/byid-financeunitsetting/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/FinanceUnitSetting/byid-financeunitsetting/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/FinanceUnitSetting/create-financeunitsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/FinanceUnitSetting/create-financeunitsetting",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/FinanceUnitSetting/update-financeunitsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/FinanceUnitSetting/update-financeunitsetting",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/FinanceUnitSetting/delete-financeunitsetting?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/FinanceUnitSetting/delete-financeunitsetting?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // JobApplicationCategory API
+    {
+      "DownstreamPathTemplate": "/api/JobApplicationCategory/all-jobapplicationcategory",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/JobApplicationCategory/all-jobapplicationcategory",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/JobApplicationCategory/byid-jobapplicationcategory/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/JobApplicationCategory/byid-jobapplicationcategory/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/JobApplicationCategory/create-jobapplicationcategory",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/JobApplicationCategory/create-jobapplicationcategory",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/JobApplicationCategory/update-jobapplicationcategory",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/JobApplicationCategory/update-jobapplicationcategory",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/JobApplicationCategory/delete-jobapplicationcategory?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/JobApplicationCategory/delete-jobapplicationcategory?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // JobApplicationPosition API
+    {
+      "DownstreamPathTemplate": "/api/JobApplicationPosition/all-jobapplicationposition",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/JobApplicationPosition/all-jobapplicationposition",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/JobApplicationPosition/byid-jobapplicationposition/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/JobApplicationPosition/byid-jobapplicationposition/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/JobApplicationPosition/create-jobapplicationposition",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/JobApplicationPosition/create-jobapplicationposition",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/JobApplicationPosition/update-jobapplicationposition",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/JobApplicationPosition/update-jobapplicationposition",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/JobApplicationPosition/delete-jobapplicationposition?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/JobApplicationPosition/delete-jobapplicationposition?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    // Language API
+    {
+      "DownstreamPathTemplate": "/api/Language/all-language",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Language/all-language",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Language/byid-language/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Language/byid-language/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Language/create-language",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Language/create-language",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Language/update-language",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Language/update-language",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Language/delete-language?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Language/delete-language?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    // Payment API
+    {
+      "DownstreamPathTemplate": "/api/Payment/all-payment",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Payment/all-payment",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Payment/byid-payment/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Payment/byid-payment/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Payment/create-payment",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Payment/create-payment",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Payment/update-payment",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Payment/update-payment",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Payment/delete-payment?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Payment/delete-payment?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    // ProjectReminderPerson API
+    {
+      "DownstreamPathTemplate": "/api/ProjectReminderPerson/all-projectreminderperson",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectReminderPerson/all-projectreminderperson",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectReminderPerson/byid-projectreminderperson/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectReminderPerson/byid-projectreminderperson/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectReminderPerson/create-projectreminderperson",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectReminderPerson/create-projectreminderperson",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectReminderPerson/update-projectreminderperson",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectReminderPerson/update-projectreminderperson",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectReminderPerson/delete-projectreminderperson?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectReminderPerson/delete-projectreminderperson?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // ProjectSetting API
+    {
+      "DownstreamPathTemplate": "/api/ProjectSetting/all-projectsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectSetting/all-projectsetting",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectSetting/byid-projectsetting/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectSetting/byid-projectsetting/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectSetting/create-projectsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectSetting/create-projectsetting",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectSetting/update-projectsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectSetting/update-projectsetting",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectSetting/delete-projectsetting?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectSetting/delete-projectsetting?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // ProjectStatus API
+    {
+      "DownstreamPathTemplate": "/api/ProjectStatus/all-projectstatus",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectStatus/all-projectstatus",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectStatus/byid-projectstatus/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectStatus/byid-projectstatus/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectStatus/create-projectstatus",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectStatus/create-projectstatus",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectStatus/update-projectstatus",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectStatus/update-projectstatus",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ProjectStatus/delete-projectstatus?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ProjectStatus/delete-projectstatus?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // PurchaseOrder API
+    {
+      "DownstreamPathTemplate": "/api/PurchaseOrder/all-purchaseorder",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/PurchaseOrder/all-purchaseorder",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/PurchaseOrder/byid-purchaseorder/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/PurchaseOrder/byid-purchaseorder/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/PurchaseOrder/create-purchaseorder",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/PurchaseOrder/create-purchaseorder",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/PurchaseOrder/update-purchaseorder",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/PurchaseOrder/update-purchaseorder",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/PurchaseOrder/delete-purchaseorder?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/PurchaseOrder/delete-purchaseorder?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // PurchaseSetting API
+    {
+      "DownstreamPathTemplate": "/api/PurchaseSetting/all-purchasesetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/PurchaseSetting/all-purchasesetting",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/PurchaseSetting/byid-purchasesetting/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/PurchaseSetting/byid-purchasesetting/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/PurchaseSetting/create-purchasesetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/PurchaseSetting/create-purchasesetting",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/PurchaseSetting/update-purchasesetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/PurchaseSetting/update-purchasesetting",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/PurchaseSetting/delete-purchasesetting?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/PurchaseSetting/delete-purchasesetting?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // RecruiterSetting API
+    {
+      "DownstreamPathTemplate": "/api/RecruiterSetting/all-recruitersetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruiterSetting/all-recruitersetting",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruiterSetting/byid-recruitersetting/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruiterSetting/byid-recruitersetting/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruiterSetting/create-recruitersetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruiterSetting/create-recruitersetting",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruiterSetting/update-recruitersetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruiterSetting/update-recruitersetting",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruiterSetting/delete-recruitersetting?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruiterSetting/delete-recruitersetting?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // RecruitFooterSetting API
+    {
+      "DownstreamPathTemplate": "/api/RecruitFooterSetting/all-recruitfootersetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitFooterSetting/all-recruitfootersetting",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitFooterSetting/byid-recruitfootersetting/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitFooterSetting/byid-recruitfootersetting/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitFooterSetting/create-recruitfootersetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitFooterSetting/create-recruitfootersetting",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitFooterSetting/update-recruitfootersetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitFooterSetting/update-recruitfootersetting",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitFooterSetting/delete-recruitfootersetting?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitFooterSetting/delete-recruitfootersetting?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // RecruitGeneralSetting API
+    {
+      "DownstreamPathTemplate": "/api/RecruitGeneralSetting/all-recruitgeneralsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitGeneralSetting/all-recruitgeneralsetting",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitGeneralSetting/byid-recruitgeneralsetting/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitGeneralSetting/byid-recruitgeneralsetting/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitGeneralSetting/create-recruitgeneralsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitGeneralSetting/create-recruitgeneralsetting",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitGeneralSetting/update-recruitgeneralsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitGeneralSetting/update-recruitgeneralsetting",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitGeneralSetting/delete-recruitgeneralsetting?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitGeneralSetting/delete-recruitgeneralsetting?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // RecruitJobApplicationStatusSetting API
+    {
+      "DownstreamPathTemplate": "/api/RecruitJobApplicationStatusSetting/all-recruitjobapplicationstatussetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitJobApplicationStatusSetting/all-recruitjobapplicationstatussetting",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitJobApplicationStatusSetting/byid-recruitjobapplicationstatussetting/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitJobApplicationStatusSetting/byid-recruitjobapplicationstatussetting/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitJobApplicationStatusSetting/create-recruitjobapplicationstatussetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitJobApplicationStatusSetting/create-recruitjobapplicationstatussetting",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitJobApplicationStatusSetting/update-recruitjobapplicationstatussetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitJobApplicationStatusSetting/update-recruitjobapplicationstatussetting",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitJobApplicationStatusSetting/delete-recruitjobapplicationstatussetting?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitJobApplicationStatusSetting/delete-recruitjobapplicationstatussetting?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // RecruitNotificationSetting API
+    {
+      "DownstreamPathTemplate": "/api/RecruitNotificationSetting/all-recruitnotificationsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitNotificationSetting/all-recruitnotificationsetting",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitNotificationSetting/byid-recruitnotificationsetting/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitNotificationSetting/byid-recruitnotificationsetting/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitNotificationSetting/create-recruitnotificationsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitNotificationSetting/create-recruitnotificationsetting",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitNotificationSetting/update-recruitnotificationsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitNotificationSetting/update-recruitnotificationsetting",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitNotificationSetting/delete-recruitnotificationsetting?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitNotificationSetting/delete-recruitnotificationsetting?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // Tasks API
+    {
+      "DownstreamPathTemplate": "/api/Tasks/all-tasks",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Tasks/all-tasks",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Tasks/byid-tasks/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Tasks/byid-tasks/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Tasks/create-tasks",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Tasks/create-tasks",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Tasks/update-tasks",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Tasks/update-tasks",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Tasks/delete-tasks?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Tasks/delete-tasks?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // TicketChannel API
+    {
+      "DownstreamPathTemplate": "/api/TicketChannel/all-ticketchannel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketChannel/all-ticketchannel",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketChannel/byid-ticketchannel/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketChannel/byid-ticketchannel/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketChannel/create-ticketchannel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketChannel/create-ticketchannel",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketChannel/update-ticketchannel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketChannel/update-ticketchannel",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketChannel/delete-ticketchannel?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketChannel/delete-ticketchannel?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // TicketGroup API
+    {
+      "DownstreamPathTemplate": "/api/TicketGroup/all-ticketgroup",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketGroup/all-ticketgroup",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketGroup/byid-ticketgroup/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketGroup/byid-ticketgroup/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketGroup/create-ticketgroup",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketGroup/create-ticketgroup",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketGroup/update-ticketgroup",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketGroup/update-ticketgroup",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketGroup/delete-ticketgroup?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketGroup/delete-ticketgroup?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // TicketReplyTemplate API
+    {
+      "DownstreamPathTemplate": "/api/TicketReplyTemplate/all-ticketreplytemplate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketReplyTemplate/all-ticketreplytemplate",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketReplyTemplate/byid-ticketreplytemplate/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketReplyTemplate/byid-ticketreplytemplate/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketReplyTemplate/create-ticketreplytemplate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketReplyTemplate/create-ticketreplytemplate",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketReplyTemplate/update-ticketreplytemplate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketReplyTemplate/update-ticketreplytemplate",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketReplyTemplate/delete-ticketreplytemplate?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketReplyTemplate/delete-ticketreplytemplate?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // TimeLog API
+    {
+      "DownstreamPathTemplate": "/api/TimeLog/all-timelog",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TimeLog/all-timelog",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TimeLog/byid-timelog/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TimeLog/byid-timelog/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TimeLog/create-timelog",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TimeLog/create-timelog",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TimeLog/update-timelog",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TimeLog/update-timelog",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TimeLog/delete-timelog?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TimeLog/delete-timelog?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // TicketType API
+    {
+      "DownstreamPathTemplate": "/api/TicketType/all-tickettype",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketType/all-tickettype",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketType/byid-tickettype/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketType/byid-tickettype/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketType/create-tickettype",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketType/create-tickettype",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketType/update-tickettype",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketType/update-tickettype",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TicketType/delete-tickettype?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/TicketType/delete-tickettype?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // Timesheet API
+    {
+      "DownstreamPathTemplate": "/api/Timesheet/all-timesheet",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Timesheet/all-timesheet",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Timesheet/byid-timesheet/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Timesheet/byid-timesheet/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Timesheet/create-timesheet",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Timesheet/create-timesheet",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Timesheet/update-timesheet",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Timesheet/update-timesheet",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Timesheet/delete-timesheet?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/Timesheet/delete-timesheet?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // ToggleValue API
+    {
+      "DownstreamPathTemplate": "/api/ToggleValue/all-togglevalue",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ToggleValue/all-togglevalue",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ToggleValue/byid-togglevalue/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ToggleValue/byid-togglevalue/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ToggleValue/create-togglevalue",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ToggleValue/create-togglevalue",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ToggleValue/update-togglevalue",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ToggleValue/update-togglevalue",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/ToggleValue/delete-togglevalue?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/ToggleValue/delete-togglevalue?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // RecruitCustomQuestionSetting API
+    {
+      "DownstreamPathTemplate": "/api/RecruitCustomQuestionSetting/all-recruitcustomquestionsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitCustomQuestionSetting/all-recruitcustomquestionsetting",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitCustomQuestionSetting/byid-recruitcustomquestionsetting/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitCustomQuestionSetting/byid-recruitcustomquestionsetting/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitCustomQuestionSetting/create-recruitcustomquestionsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitCustomQuestionSetting/create-recruitcustomquestionsetting",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitCustomQuestionSetting/update-recruitcustomquestionsetting",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitCustomQuestionSetting/update-recruitcustomquestionsetting",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RecruitCustomQuestionSetting/delete-recruitcustomquestionsetting?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/RecruitCustomQuestionSetting/delete-recruitcustomquestionsetting?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+
+    // CustomQuestionCategory API
+    {
+      "DownstreamPathTemplate": "/api/CustomQuestionCategory/all-customquestioncategory",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/CustomQuestionCategory/all-customquestioncategory",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/CustomQuestionCategory/byid-customquestioncategory/?{Id}=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/CustomQuestionCategory/byid-customquestioncategory/?{Id}=",
+      "UpstreamHttpMethod": [ "GET" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/CustomQuestionCategory/create-customquestioncategory",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/CustomQuestionCategory/create-customquestioncategory",
+      "UpstreamHttpMethod": [ "POST" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/CustomQuestionCategory/update-customquestioncategory",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/CustomQuestionCategory/update-customquestioncategory",
+      "UpstreamHttpMethod": [ "Put" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/CustomQuestionCategory/delete-customquestioncategory?Id=",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6301
+        }
+      ],
+      "UpstreamPathTemplate": "/CustomQuestionCategory/delete-customquestioncategory?Id=",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "FileCacheOptions": {
+        "TtlSeconds": 60,
+        "Region": "default",
+        "Header": "OC-Caching-Control"
+      }
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:6301"
+  }
+}
