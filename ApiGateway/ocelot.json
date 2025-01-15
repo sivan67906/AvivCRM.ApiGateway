@@ -1,4 +1,4 @@
-//Environment API http: //environments.vysncapital.com/
+//Environment API https://env.vysncapital.com/
 //Configuration API http: //configurations.vysncapital.com/
 
 {
@@ -9,8 +9,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/LeadSource/all-leadsource",
@@ -26,8 +26,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/LeadSource/byid-leadsource/?{Id}=",
@@ -43,8 +43,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/LeadSource/create-leadsource",
@@ -60,8 +60,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/LeadSource/update-leadsource",
@@ -77,8 +77,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/LeadSource/delete-leadsource?Id=",
@@ -96,8 +96,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Application/all-application",
@@ -113,8 +113,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Application/byid-application/?{Id}=",
@@ -130,8 +130,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Application/create-application",
@@ -147,8 +147,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Application/update-application",
@@ -164,8 +164,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Application/delete-application?Id=",
@@ -183,8 +183,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CustomQuestionType/all-customquestiontype",
@@ -200,8 +200,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CustomQuestionType/byid-customquestiontype/?{Id}=",
@@ -217,8 +217,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CustomQuestionType/create-customquestiontype",
@@ -234,8 +234,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CustomQuestionType/update-customquestiontype",
@@ -251,8 +251,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CustomQuestionType/delete-customquestiontype?Id=",
@@ -270,8 +270,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Employee/all-employee",
@@ -287,8 +287,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Employee/byid-employee/?{Id}=",
@@ -304,8 +304,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Employee/create-employee",
@@ -321,8 +321,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Employee/update-employee",
@@ -338,8 +338,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Employee/delete-employee?Id=",
@@ -356,8 +356,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/FinancePrefixSetting/all-financeprefixsetting",
@@ -373,8 +373,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/FinancePrefixSetting/byid-financeprefixsetting/?{Id}=",
@@ -390,8 +390,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/FinancePrefixSetting/create-financeprefixsetting",
@@ -407,8 +407,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/FinancePrefixSetting/update-financeprefixsetting",
@@ -424,8 +424,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/FinancePrefixSetting/delete-financeprefixsetting?Id=",
@@ -443,8 +443,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/FinanceUnitSetting/all-financeunitsetting",
@@ -460,8 +460,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/FinanceUnitSetting/byid-financeunitsetting/?{Id}=",
@@ -477,8 +477,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/FinanceUnitSetting/create-financeunitsetting",
@@ -494,8 +494,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/FinanceUnitSetting/update-financeunitsetting",
@@ -511,8 +511,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/FinanceUnitSetting/delete-financeunitsetting?Id=",
@@ -530,8 +530,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/JobApplicationCategory/all-jobapplicationcategory",
@@ -547,8 +547,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/JobApplicationCategory/byid-jobapplicationcategory/?{Id}=",
@@ -564,8 +564,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/JobApplicationCategory/create-jobapplicationcategory",
@@ -581,8 +581,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/JobApplicationCategory/update-jobapplicationcategory",
@@ -598,8 +598,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/JobApplicationCategory/delete-jobapplicationcategory?Id=",
@@ -617,8 +617,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/JobApplicationPosition/all-jobapplicationposition",
@@ -634,8 +634,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/JobApplicationPosition/byid-jobapplicationposition/?{Id}=",
@@ -651,8 +651,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/JobApplicationPosition/create-jobapplicationposition",
@@ -668,8 +668,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/JobApplicationPosition/update-jobapplicationposition",
@@ -685,8 +685,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/JobApplicationPosition/delete-jobapplicationposition?Id=",
@@ -703,8 +703,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Language/all-language",
@@ -720,8 +720,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Language/byid-language/?{Id}=",
@@ -737,8 +737,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Language/create-language",
@@ -754,8 +754,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Language/update-language",
@@ -771,8 +771,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Language/delete-language?Id=",
@@ -789,8 +789,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Payment/all-payment",
@@ -806,8 +806,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Payment/byid-payment/?{Id}=",
@@ -823,8 +823,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Payment/create-payment",
@@ -840,8 +840,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Payment/update-payment",
@@ -857,8 +857,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Payment/delete-payment?Id=",
@@ -875,8 +875,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectReminderPerson/all-projectreminderperson",
@@ -892,8 +892,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectReminderPerson/byid-projectreminderperson/?{Id}=",
@@ -909,8 +909,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectReminderPerson/create-projectreminderperson",
@@ -926,8 +926,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectReminderPerson/update-projectreminderperson",
@@ -943,8 +943,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectReminderPerson/delete-projectreminderperson?Id=",
@@ -962,8 +962,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectSetting/all-projectsetting",
@@ -979,8 +979,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectSetting/byid-projectsetting/?{Id}=",
@@ -996,8 +996,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectSetting/create-projectsetting",
@@ -1013,8 +1013,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectSetting/update-projectsetting",
@@ -1030,8 +1030,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectSetting/delete-projectsetting?Id=",
@@ -1049,8 +1049,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectStatus/all-projectstatus",
@@ -1066,8 +1066,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectStatus/byid-projectstatus/?{Id}=",
@@ -1083,8 +1083,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectStatus/create-projectstatus",
@@ -1100,8 +1100,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectStatus/update-projectstatus",
@@ -1117,8 +1117,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ProjectStatus/delete-projectstatus?Id=",
@@ -1136,8 +1136,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/PurchaseOrder/all-purchaseorder",
@@ -1153,8 +1153,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/PurchaseOrder/byid-purchaseorder/?{Id}=",
@@ -1170,8 +1170,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/PurchaseOrder/create-purchaseorder",
@@ -1187,8 +1187,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/PurchaseOrder/update-purchaseorder",
@@ -1204,8 +1204,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/PurchaseOrder/delete-purchaseorder?Id=",
@@ -1223,8 +1223,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/PurchaseSetting/all-purchasesetting",
@@ -1240,8 +1240,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/PurchaseSetting/byid-purchasesetting/?{Id}=",
@@ -1257,8 +1257,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/PurchaseSetting/create-purchasesetting",
@@ -1274,8 +1274,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/PurchaseSetting/update-purchasesetting",
@@ -1291,8 +1291,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/PurchaseSetting/delete-purchasesetting?Id=",
@@ -1310,8 +1310,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruiterSetting/all-recruitersetting",
@@ -1327,8 +1327,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruiterSetting/byid-recruitersetting/?{Id}=",
@@ -1344,8 +1344,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruiterSetting/create-recruitersetting",
@@ -1361,8 +1361,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruiterSetting/update-recruitersetting",
@@ -1378,8 +1378,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruiterSetting/delete-recruitersetting?Id=",
@@ -1397,8 +1397,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitFooterSetting/all-recruitfootersetting",
@@ -1414,8 +1414,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitFooterSetting/byid-recruitfootersetting/?{Id}=",
@@ -1431,8 +1431,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitFooterSetting/create-recruitfootersetting",
@@ -1448,8 +1448,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitFooterSetting/update-recruitfootersetting",
@@ -1465,8 +1465,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitFooterSetting/delete-recruitfootersetting?Id=",
@@ -1484,8 +1484,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitGeneralSetting/all-recruitgeneralsetting",
@@ -1501,8 +1501,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitGeneralSetting/byid-recruitgeneralsetting/?{Id}=",
@@ -1518,8 +1518,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitGeneralSetting/create-recruitgeneralsetting",
@@ -1535,8 +1535,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitGeneralSetting/update-recruitgeneralsetting",
@@ -1552,8 +1552,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitGeneralSetting/delete-recruitgeneralsetting?Id=",
@@ -1571,8 +1571,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitJobApplicationStatusSetting/all-recruitjobapplicationstatussetting",
@@ -1588,8 +1588,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitJobApplicationStatusSetting/byid-recruitjobapplicationstatussetting/?{Id}=",
@@ -1605,8 +1605,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitJobApplicationStatusSetting/create-recruitjobapplicationstatussetting",
@@ -1622,8 +1622,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitJobApplicationStatusSetting/update-recruitjobapplicationstatussetting",
@@ -1639,8 +1639,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitJobApplicationStatusSetting/delete-recruitjobapplicationstatussetting?Id=",
@@ -1658,8 +1658,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitNotificationSetting/all-recruitnotificationsetting",
@@ -1675,8 +1675,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitNotificationSetting/byid-recruitnotificationsetting/?{Id}=",
@@ -1692,8 +1692,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitNotificationSetting/create-recruitnotificationsetting",
@@ -1709,8 +1709,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitNotificationSetting/update-recruitnotificationsetting",
@@ -1726,8 +1726,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitNotificationSetting/delete-recruitnotificationsetting?Id=",
@@ -1745,8 +1745,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Tasks/all-tasks",
@@ -1762,8 +1762,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Tasks/byid-tasks/?{Id}=",
@@ -1779,8 +1779,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Tasks/create-tasks",
@@ -1796,8 +1796,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Tasks/update-tasks",
@@ -1813,8 +1813,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Tasks/delete-tasks?Id=",
@@ -1832,8 +1832,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketChannel/all-ticketchannel",
@@ -1849,8 +1849,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketChannel/byid-ticketchannel/?{Id}=",
@@ -1866,8 +1866,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketChannel/create-ticketchannel",
@@ -1883,8 +1883,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketChannel/update-ticketchannel",
@@ -1900,8 +1900,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketChannel/delete-ticketchannel?Id=",
@@ -1919,8 +1919,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketGroup/all-ticketgroup",
@@ -1936,8 +1936,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketGroup/byid-ticketgroup/?{Id}=",
@@ -1953,8 +1953,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketGroup/create-ticketgroup",
@@ -1970,8 +1970,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketGroup/update-ticketgroup",
@@ -1987,8 +1987,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketGroup/delete-ticketgroup?Id=",
@@ -2006,8 +2006,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketReplyTemplate/all-ticketreplytemplate",
@@ -2023,8 +2023,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketReplyTemplate/byid-ticketreplytemplate/?{Id}=",
@@ -2040,8 +2040,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketReplyTemplate/create-ticketreplytemplate",
@@ -2057,8 +2057,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketReplyTemplate/update-ticketreplytemplate",
@@ -2074,8 +2074,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketReplyTemplate/delete-ticketreplytemplate?Id=",
@@ -2093,8 +2093,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TimeLog/all-timelog",
@@ -2110,8 +2110,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TimeLog/byid-timelog/?{Id}=",
@@ -2127,8 +2127,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TimeLog/create-timelog",
@@ -2144,8 +2144,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TimeLog/update-timelog",
@@ -2161,8 +2161,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TimeLog/delete-timelog?Id=",
@@ -2180,8 +2180,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketType/all-tickettype",
@@ -2197,8 +2197,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketType/byid-tickettype/?{Id}=",
@@ -2214,8 +2214,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketType/create-tickettype",
@@ -2231,8 +2231,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketType/update-tickettype",
@@ -2248,8 +2248,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TicketType/delete-tickettype?Id=",
@@ -2267,8 +2267,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Timesheet/all-timesheet",
@@ -2284,8 +2284,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Timesheet/byid-timesheet/?{Id}=",
@@ -2301,8 +2301,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Timesheet/create-timesheet",
@@ -2318,8 +2318,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Timesheet/update-timesheet",
@@ -2335,8 +2335,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/Timesheet/delete-timesheet?Id=",
@@ -2354,8 +2354,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ToggleValue/all-togglevalue",
@@ -2371,8 +2371,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ToggleValue/byid-togglevalue/?{Id}=",
@@ -2388,8 +2388,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ToggleValue/create-togglevalue",
@@ -2405,8 +2405,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ToggleValue/update-togglevalue",
@@ -2422,8 +2422,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/ToggleValue/delete-togglevalue?Id=",
@@ -2441,8 +2441,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitCustomQuestionSetting/all-recruitcustomquestionsetting",
@@ -2458,8 +2458,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitCustomQuestionSetting/byid-recruitcustomquestionsetting/?{Id}=",
@@ -2475,8 +2475,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitCustomQuestionSetting/create-recruitcustomquestionsetting",
@@ -2492,8 +2492,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitCustomQuestionSetting/update-recruitcustomquestionsetting",
@@ -2509,8 +2509,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/RecruitCustomQuestionSetting/delete-recruitcustomquestionsetting?Id=",
@@ -2528,8 +2528,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CustomQuestionCategory/all-customquestioncategory",
@@ -2545,8 +2545,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CustomQuestionCategory/byid-customquestioncategory/?{Id}=",
@@ -2562,8 +2562,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CustomQuestionCategory/create-customquestioncategory",
@@ -2579,8 +2579,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CustomQuestionCategory/update-customquestioncategory",
@@ -2596,8 +2596,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/CustomQuestionCategory/delete-customquestioncategory?Id=",
@@ -2614,8 +2614,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TimeZoneStandard/all-timezonestandard",
@@ -2631,8 +2631,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TimeZoneStandard/byid-timezonestandard/?{Id}=",
@@ -2648,8 +2648,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TimeZoneStandard/create-timezonestandard",
@@ -2665,8 +2665,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TimeZoneStandard/update-timezonestandard",
@@ -2682,8 +2682,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/TimeZoneStandard/delete-timezonestandard?Id=",
@@ -2701,8 +2701,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/DatePattern/all-datepattern",
@@ -2718,8 +2718,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/DatePattern/byid-datepattern/?{Id}=",
@@ -2735,8 +2735,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/DatePattern/create-datepattern",
@@ -2752,8 +2752,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/DatePattern/update-datepattern",
@@ -2769,8 +2769,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 6301
+          "Host": "https://env.vysncapital.com/",
+          "Port": 80
         }
       ],
       "UpstreamPathTemplate": "/DatePattern/delete-datepattern?Id=",
@@ -2784,6 +2784,6 @@
 
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:6301"
+    "BaseUrl": "https://env.vysncapital.com/:80"
   }
 }
